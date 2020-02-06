@@ -6,11 +6,11 @@ import Button from '../Button/Button';
 
 const Header = () => {
     const partners = ["./images/house_of_finn_juhl.png", "./images/nderse.png", "./images/parker_knoll.png", "./images/gubi.png", "./images/northern.png"];
-    const partnerList = partners.map(img =>{
+    const partnerList = partners.map(partner =>{
         return (
-            <img src={img} alt={img} width="100vw" />
+            <img src={partner} alt={partner}  />
         )
-    })
+    });
     return (
         <div className="header">
             <div className="top-header">
