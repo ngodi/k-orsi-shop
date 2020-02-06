@@ -1,4 +1,4 @@
-# K-ORSI-FURNITURE
+# K-ORSI-SHOP
 
 >This project is an online shopping website of home and office supplies.
 
