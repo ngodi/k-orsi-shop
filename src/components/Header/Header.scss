@@ -1,0 +1,42 @@
+.top-header{
+    width: 100%;
+    height: 60%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    width:98vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+}
+
+.left-header{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding:20px 90px;
+    background: #1F8179;
+
+    p{
+        font-size: 1vw;
+    }
+}
+.right-header{
+    width: 60%;
+    height: 100%;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;;
+    
+}
