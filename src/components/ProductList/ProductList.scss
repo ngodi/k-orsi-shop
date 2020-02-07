@@ -1,0 +1,31 @@
+@import "../../main.scss";
+
+.product-list{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.product-list-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.product-list-header-buttons{
+    display: flex;
+}
+
+.sub-heading{
+ color: #142445;
+ font-size: 2vw;
+ font-weight: bold;
+}
+
+.product-list-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+

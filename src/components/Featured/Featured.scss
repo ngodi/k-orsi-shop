@@ -1,9 +1,11 @@
+
+@import "../../main.scss";
+
 .featured{
     width: 80vw;
     margin: 10vh auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     border-bottom: 2px solid lightgray;
     padding:6vh 0;
 }
@@ -11,14 +13,14 @@
     display: flex;
     justify-content: space-between;
     padding:1vw 0;
-    margin-bottom: 10vh;
+    margin: 10vh;
 }
 
 .featured-desc{
-    width: 40vw;
+    width: 30vw;
     font-size: 0.7vw;
     line-height: 2.4vh;
-    padding: 0 3vw;
+    padding: 0 0.1vw;
 }
 
 .featured-title{
@@ -26,7 +28,7 @@
     font-size: 2.2vw;
     width:20vw;
     border-right: 1px solid lightgray;
-    padding-right: 3vw;
+    padding-right: 2vw;
 }
 
 .featured-controls{
@@ -82,3 +84,4 @@
         height:20vh;
     }
 }
+

@@ -29,7 +29,7 @@ const Featured = () => {
           <p>01</p>
           <p></p>
         </div>
-        <img src="./images/featured.png" alt="featured image" width="50%" />
+        <img src="./images/featured.png" alt="featured product" width="50%" />
         <div className="color-choice">
           <p>Color<br />Choice</p>
          <Circle color="fas fa-circle yellow-circle" />
@@ -39,7 +39,10 @@ const Featured = () => {
           
         </div>
       </div>
-      <Button color="white-btn" text="See All Item" />
+      <div className="centered-item">
+         <Button color="white-btn" text="See All Item" />
+      </div>
+     
     </div>
   );
 }
