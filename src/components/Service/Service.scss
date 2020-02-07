@@ -1,0 +1,25 @@
+.service{
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 4vw;
+    box-shadow: 5px 5px 10px lightgray;
+
+    i{
+        font-size: 3vw;
+        color: green;
+    }
+    .service-title{
+        font-weight: bold;
+        margin: 2vw 0;
+    }
+
+    .service-desc{
+        font-size: 0.8vw;
+        line-height: 1.5vw;
+        text-align: center;
+    }
+}

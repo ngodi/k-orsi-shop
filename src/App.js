@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Featured from './components/Featured/Featured';
 import ProductList from './components/ProductList/ProductList';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Featured />
       <ProductList />
+      <Services />
     </div>
   );
 }

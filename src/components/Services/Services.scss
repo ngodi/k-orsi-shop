@@ -1,0 +1,38 @@
+
+
+.services{
+    width: 90vw;
+    margin: 5vw auto;
+    background: #142445;
+    color: white;
+    min-height: 50vh;
+    position: relative;
+    
+}
+.services-container{
+  width: 80vw;
+  margin: 0 auto;
+
+}
+.services-info{
+    width: 30vw;
+    font-size: 0.7vw;
+    line-height: 1.2vw;
+}
+.services-header{
+    display: flex;
+    justify-content: space-between;
+    padding:5vw;
+}
+
+.services-heading{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 3vw;
+}
