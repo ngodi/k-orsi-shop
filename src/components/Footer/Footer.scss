@@ -1,0 +1,37 @@
+.footer{
+    width: 72vw;
+    margin: 0 auto;
+}
+
+.subscribe{
+    display: flex;
+    align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  margin: 3vw 0;
+  padding-bottom: 5vw;
+    span{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+      
+
+        input{
+            height: 57px;
+        }
+    }
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+     font-family: 'Courier New', Courier, monospace;
+    .terms{
+        display: flex;
+       span{
+           margin-left: 10px;
+           cursor: pointer;
+          
+       }
+    }
+}
