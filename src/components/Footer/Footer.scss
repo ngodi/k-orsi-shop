@@ -1,6 +1,12 @@
 .footer{
     width: 72vw;
     margin: 0 auto;
+
+}
+
+.various-models{
+    font-size: 2vw !important;
+    font-weight: bold !important;
 }
 
 .subscribe{
@@ -11,27 +17,31 @@
   margin: 3vw 0;
   padding-bottom: 5vw;
     span{
+        font-size: 1.5vw;
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 15vw;
       
 
         input{
-            height: 57px;
+            margin-top: 1vw;
+            height: 3vw;
         }
     }
 }
 
 .footer-bottom{
+    font-size: 1vw;
     display: flex;
     justify-content: space-between;
      font-family: 'Courier New', Courier, monospace;
+
     .terms{
         display: flex;
        span{
-           margin-left: 10px;
-           cursor: pointer;
-          
+           margin-left: 1vw;
+           cursor: pointer; 
        }
+      
     }
 }

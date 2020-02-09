@@ -2,30 +2,31 @@
 @import "../../main.scss";
 
 .featured{
-    width: 80vw;
-    margin: 10vh auto;
+    width: 95vw;
+    margin: 1vh auto;
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid lightgray;
-    padding:6vh 0;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 3vh;
 }
 .top-featured{
     display: flex;
     justify-content: space-between;
     padding:1vw 0;
-    margin: 10vh;
+    margin: 5vh;
 }
 
 .featured-desc{
-    width: 30vw;
-    font-size: 0.7vw;
-    line-height: 2.4vh;
+    width: 40vw;
+    font-size: 0.8vw;
+    line-height: 2vh;
     padding: 0 0.1vw;
 }
 
 .featured-title{
     color: #142445;
-    font-size: 2.2vw;
+    font-size: 2.4vw;
+    font-weight: bold;
     width:20vw;
     border-right: 1px solid lightgray;
     padding-right: 2vw;
@@ -36,8 +37,8 @@
     flex-direction: column;
     justify-content: space-between;
     background: #F4F5F7;
-    padding: 1vw;
-    height: 8vh;
+    padding: 3vw;
+    height: 10vw;
     font-size: 1vw;
     .fa-arrow-left{
         color:lightgray
@@ -52,7 +53,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10vh;
+    margin: 5vh;
 
     img{
         margin: 0 10vw;
@@ -64,6 +65,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5vw;
 
     i{
         margin-top:2vh;

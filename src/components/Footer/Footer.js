@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import './Footer.scss';
@@ -7,8 +8,8 @@ import Button from '../Button/Button';
 const Footer = () => {
     return(
         <div className="footer">
-            <div clasName="models">
-            <p>Get Various Models to Your<br /> Interior space</p>
+            <div clasName="model">
+            <p className="various-models">Get Various Models to Your<br /> Interior space</p>
             <div className="subscribe">
               <span>
                 <label>Your Name</label>

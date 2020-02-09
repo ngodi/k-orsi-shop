@@ -29,7 +29,7 @@ const Featured = () => {
           <p>01</p>
           <p></p>
         </div>
-        <img src="./images/featured.png" alt="featured product" width="50%" />
+        <img src="./images/featured.png" alt="featured product" width="60%" />
         <div className="color-choice">
           <p>Color<br />Choice</p>
          <Circle color="fas fa-circle yellow-circle" />

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import './Header.scss';
@@ -8,7 +9,9 @@ const Header = () => {
     const partners = ["./images/house_of_finn_juhl.png", "./images/nderse.png", "./images/parker_knoll.png", "./images/gubi.png", "./images/northern.png"];
     const partnerList = partners.map(partner =>{
         return (
-            <img src={partner} alt={partner}  />
+            <div className="image-div">
+             <img src={partner} alt={partner} width="100%" />
+            </div>
         )
     });
     return (
@@ -20,12 +23,9 @@ const Header = () => {
                       <span>K-ORSI</span>
                   </div>
                   <p className="slogan">
-                      Feel the Comfort
+                      Feel the Comfort <br /> Using Our Produts
                   </p>
-                  <p className="slogan">
-                      Using Our Produts
-                  </p>
-                  <p>
+                  <p className="intro">
                       Ex ex laboris est proident voluptate. Esse id Lorem proident Lorem
                       minim pariatur exercitation voluptate ipsum sit commodo.
                   </p>
@@ -35,7 +35,7 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="right-header">
-                    <img src='./images/show_room.png' alt="show room" width="100%"/>
+                    <img src='./images/show_room.png' alt="show room" height="100%" width="100%"/>
                 </div>
             </div>
             <div className="partners">
